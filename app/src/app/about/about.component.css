@@ -1,0 +1,43 @@
+.im
+{
+  height: 450px;
+  background-image:url('../../assets/Images/manager.png');
+  background-size: 100% 100%;
+
+
+}
+ h2{
+  font-family: "Roboto",sans-serif;
+  font-size: 50px;
+  color: #384147;
+  margin-top: 190px ;
+}
+.about
+{
+  font-family: "Roboto",sans-serif;
+  color: #384147;
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  .im
+ {
+   margin:auto;
+
+ }
+ }
+@media only screen and (max-width: 767px) {
+
+ h2
+ {
+  margin-top: 50px ;
+
+ }
+ }
+ .container{
+
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
