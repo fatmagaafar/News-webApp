@@ -14,6 +14,7 @@ import{HttpClientModule} from '@angular/common/http';
 import { SubTitlePipe } from './pipes/sub-title.pipe';
 import { ArticleDetailsComponent } from './article-details/article-details.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { MahmoudComponent } from './mahmoud/mahmoud.component';
 const appRoues:Routes =[
   {path:'',component:LogInComponent},
   {path:'home',component:HomeComponent},
@@ -36,7 +37,8 @@ const appRoues:Routes =[
     NotfoundComponent,
     SubTitlePipe,
     ArticleDetailsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    MahmoudComponent
   ],
   imports: [
     BrowserModule,
