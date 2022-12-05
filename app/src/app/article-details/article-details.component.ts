@@ -17,8 +17,6 @@ export class ArticleDetailsComponent implements OnInit {
 this._NewsService.getNews().subscribe(data => {
 
   this.article = data.articles[this.id]
-//   console.log(data.articles)
-// console.log( this.article = data.articles[this.id])
 })
 
   }

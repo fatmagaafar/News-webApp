@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TestBed } from '@angular/core/testing';
+// import { TestBed } from '@angular/core/testing';
 import { NewsService } from '../services/news.service';
 import{Router} from '@angular/router';
 
